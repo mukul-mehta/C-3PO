@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::848472830311:role/AWSTaskRoleForECS",
+  "executionRoleArn": "arn:aws:iam::322251010245:role/AWSTaskRoleForECS",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -42,19 +42,19 @@
       "workingDirectory": null,
       "secrets": [
         {
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:848472830311:secret:GOOGLE_APPLICATION_CREDENTIALS-2Vfxxs",
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:322251010245:secret:GOOGLE_APPLICATION_CREDENTIALS-tiU01f",
           "name": "GOOGLE_APPLICATION_CREDENTIALS"
         },
         {
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:848472830311:secret:POSTGRES_URI-hVBEcw",
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:322251010245:secret:POSTGRES_URI-LVyRWz",
           "name": "POSTGRES_URI"
         },
         {
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:848472830311:secret:SPOTIPY_CLIENT_SECRET-pSc1p0",
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:322251010245:secret:SPOTIPY_CLIENT_SECRET-7jwuKd",
           "name": "SPOTIPY_CLIENT_SECRET"
         },
         {
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:848472830311:secret:WHOAMI-HS4gPo",
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:322251010245:secret:WHOAMI-ro3fQI",
           "name": "WHOAMI"
         }
       ],
@@ -63,7 +63,7 @@
       "memoryReservation": 1024,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "848472830311.dkr.ecr.ap-south-1.amazonaws.com/c3po:latest",
+      "image": "322251010245.dkr.ecr.ap-south-1.amazonaws.com/c3po:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -85,7 +85,7 @@
   ],
   "placementConstraints": [],
   "memory": "1024",
-  "taskRoleArn": "arn:aws:iam::848472830311:role/AWSTaskRoleForECS",
+  "taskRoleArn": "arn:aws:iam::322251010245:role/AWSTaskRoleForECS",
   "family": "c3po-taskdef",
   "pidMode": null,
   "requiresCompatibilities": ["FARGATE"],
